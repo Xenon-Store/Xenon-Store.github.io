@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body 
+{ 
+	font-family: -apple-system, sans-serif;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header
+{
+    background-image: linear-gradient(rgb(0, 119, 255), rgb(19, 242, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#bck
+{
+    min-height: 100%; 
+    background-image: linear-gradient(rgb(54, 53, 53),rgb(22, 22, 22));
+}
+
+#Icon
+{
+
+}
+
+.button:link, .button:visited
+{
+    text-decoration: none;
+    color: white;
+    background: rgb(49, 145, 255);
+    border-radius: 13px;
+    padding: 15px;
+}
+
+.button:hover, .button:active 
+{
+    background: rgb(21, 129, 253);
+}
